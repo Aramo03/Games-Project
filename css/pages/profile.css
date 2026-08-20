@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.profile {
+    width: 90%;
+    height: 500px;
+    background-color: blue;
+    margin: 5%;
+    border-radius: 30px;
+}
+
+.profileInfo {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.profileBanner {
+    width: 100%;
+    height: 50%;
+    background-image: url(/assets/images/profile\ images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px 30px 0px 0px;
+
+}
+
+.profileAvatar {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
