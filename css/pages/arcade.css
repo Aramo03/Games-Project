@@ -1,0 +1,116 @@
+.arcade-body{
+    background-color: var(--bg-color);
+}
+.arcade-section-3{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    .arcade-section-3-contain1{
+        width: 80vw;
+        height: 90vh;
+        padding-inline: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .arcade-title {
+            width: 1040px;
+            height: 80px;
+            .arcade-description1 {
+                font-size: 48px;
+                color: var(--color-white);
+            }
+            .arcade-description2 {
+                font-size: 14px;
+                color: var(--color-blue);
+            }
+        }
+        .arcade-cards{
+            width: 1040px;
+            height: 740px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            align-items: center;
+            row-gap: 24px;
+            column-gap: 15px;
+            .arcade-card1-contain{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 16px;
+                padding: 16px;
+                background-color: var(--card-background);
+                .arcade-img{
+
+                }
+                .arcade-card1-container{
+                    
+                    .card-container-title{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 8px;   
+                        .type-rate{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            .game-type{
+                                font-size: 11px;
+                                color: var(--color-blue);
+                            }
+                            .game-rate {
+                                font-size: 12px;
+                                color: var(--color-white);
+                            }
+
+                        }
+                        .description2{
+                            .title {
+                                font-size: 18px;
+                                color: var(--color-white);
+                            }
+                            .description {
+                                 font-size: 13px;
+                                color: var(--taxt-color-grey);
+                            }
+                        }
+                        
+                    }
+                    .active-s-button{
+                        width: 304px;
+                        height: 35px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        
+                        .active{
+                            font-size: 12px;
+                            color: var(--taxt-color-grey);
+                        }
+                        .arcade-btn{
+                            width: 80px;
+                            height: 30px;
+                            border: 2px solid var(--color-blue);
+                             background-color: #00F0FF1A; 
+                            transition: all 0.3s linear;
+                            border-radius: 15px;
+                            color: var(--color-white);
+                            &:hover{
+                            scale: 1.10;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .arcade-section-3-contain2{
+         width: 20vw;
+        height: 90vh;
+    }
+}
