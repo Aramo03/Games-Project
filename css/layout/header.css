@@ -1,0 +1,97 @@
+
+
+
+
+.header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 178px;
+    height: 47px;
+    color: #FF007F;
+    background-color: #ffffff0c;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 16px;
+    border: 1px solid #ffffff21;
+
+    letter-spacing: 1px;
+}
+
+.nav-logo-text span{
+    color: #00F0FF;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links-ul{
+    display: flex;
+    gap: 36px;
+
+    color: #8E8A9F;
+
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.nav-links-ul>li>a{
+    
+    color: #8E8A9F;
+
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-decoration: none;
+}
+
+.nav-user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-user-logo{
+    width: 32px;
+    height: 32px;
+}
+
+.nav-username{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-user-button{
+    width: 94px;
+    height: 36px;
+    background-color: #ff008013;
+    border-radius: 14px;
+}
+
+.nav-user-button-btn{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: -2px;
+}
+
+
+
