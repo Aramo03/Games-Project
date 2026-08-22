@@ -1,55 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="../css/pages/esports.css" />
+  </head>
+  <body>
+    <main class="dashboard-container">
+      <section class="stats">
+        <p class="title">GLOBAL STATS</p>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+        <div class="stat-card-item">
+          <img src="../assets/images/home page images/users.png" width="30px" />
+          <div class="stat-info">
+            <p>TOTAL PLAYERS</p>
+            <h4>4.8M+</h4>
+          </div>
+        </div>
 
-</head>
+        <div class="stat-card-item">
+          <img src="../assets/images/home page images/eye.png" width="30px" />
+          <div class="stat-info">
+            <p>ONLINE NOW</p>
+            <h4>215K+</h4>
+          </div>
+        </div>
 
-<body>
-    <main>
-        <section>
-            <p>GLOBAL STARTS</P>
-            <div>
-                <p>TOTAL PLAYERS</p>
-                <h5>4.8M+</h5>
+        <div class="stat-card-item">
+          <img src="../assets/images/home page images/Frame.png" width="30px" />
+          <div class="stat-info">
+            <p>TOTAL GAMES</p>
+            <h4>1.9B+</h4>
+          </div>
+        </div>
+
+        <p class="title">TOP GAME WEEK</p>
+
+        <div class="game-card">
+          <h4>Hyperstrike</h4>
+          <p>Top Played: 45,210 Active players</p>
+          <button class="join-btn">JOIN MATCH</button>
+        </div>
+      </section>
+
+      <section class="leaderboard">
+        <h1 class="leaderboard-top">GLOBAL LEADERBOARD</h1>
+
+        <div class="tabs">
+          <p>WEEKLY</p>
+          <p>MONTHLY</p>
+          <button class="active-tab">ALL-TIME</button>
+          <button class="butt">filters:All</button>
+        </div>
+        <div class="table-container">
+         <div class="table-container">
+    <!-- 1. Աղյուսակի վերնագրերը -->
+    <div class="table-header">
+        <p>RANK</p>
+        <p>PLAYER</p>
+        <p>SCORE</p>
+        <p>GAMES</p>
+        <p>WIN RATE</p>
+    </div>
+
+    <!-- 2. Կոճակները ԴՆՈՒՄ ԵՆՔ ԱՅՍՏԵՂ (container-ի ներսում) -->
+    <div class="table-rows">
+        <button class="table-row top-1">
+            <span class="rank">#1 👑</span>
+            <div class="player-info">
+                <img src="../assets/images/home page images/users.png" class="avatar">
+                <span class="player-name">CyberValkyrie</span>
+                <span class="level">78</span>
             </div>
-            <div>
-                <p>ONLINE NOW</p>
-                <h5>215K+</h5>
+            <span class="score">1,452,300</span>
+            <span class="games">3,245</span>
+            <span class="winrate">79.4%</span>
+        </button>
+
+        <button class="table-row top-2">
+            <span class="rank">#2 🥈</span>
+            <div class="player-info">
+                <img src="../assets/images/home page images/users.png" class="avatar">
+                <span class="player-name">ShadowHunter</span>
+                <span class="level">72</span>
             </div>
-            <div>
-                <p>TOTAL GAMES</p>
-                <h5>1.9B+</h5>
+            <span class="score">1,398,800</span>
+            <span class="games">2,891</span>
+            <span class="winrate">76.8%</span>
+        </button>
+
+        <button class="table-row top-3">
+            <span class="rank">#3 🥉</span>
+            <div class="player-info">
+                <img src="../assets/images/home page images/users.png" class="avatar">
+                <span class="player-name">NeonPhoenix</span>
+                <span class="level">69</span>
             </div>
-            <div>
-                <p>TOP GAME WEEK</p>
-            </div>
-            <div>
-                <p> Hyperstrike</p>
-                <p>Top Played: 45,210 Active players</p>
-                <button>JOIN MATCH</button>
-            </div>
-        </section>
-        <section>
-            <div>
-                <h2>GLOBAL LEADERBOARD</h2>
-                <p>WEEKLY</p>
-                <p>MONTHLY</p>
-                <button>All-TIME</button>
-            </div>
-            <button>All-TIME</button>
-            <div>
-                <p>RANK</p>
-                <p>PLAYER</p>
-                <p>SCORE</p>
-                <p>GAMES</p>
-                <p>WIN RATE</p>
-            </div>
-        </section>
+            <span class="score">1,354,100</span>
+            <span class="games">2,714</span>
+            <span class="winrate">74.5%</span>
+        </button>
+    </div>
+</div>
+      
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
