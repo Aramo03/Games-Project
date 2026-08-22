@@ -142,38 +142,3 @@ body {
    border: none;
 }
 
-.table-row {
-    display: grid;
-    grid-template-columns: 80px 1.5fr 1fr 1fr 1fr;
-    align-items: center;
-    padding: 12px 20px;
-    background-color: #120e26;
-    border-radius: 12px;
-    border: 1px solid transparent;
-    width: 95%;
-    text-align: left;
-    cursor: pointer;
-    color: #ffffff;
-    margin-top: 20px;
-    margin-left: 25px;
-}
-
-
-.table-row.top-1 {
-    border-color: #ffb700;
-}
-
-.table-row.top-2 {
-    border-color: #8c9eff;
-}
-.table-row.top-2 .rank {
-    color: #8c9eff;
-}
-
-.table-row.top-3 {
-    border-color: #ff7043; 
-}
-
-.table-row.top-3 .rank {
-    color: #ff7043; 
-}
