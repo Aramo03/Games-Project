@@ -3,16 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/images/headerPic.png" type="image/png" />
     <title>Leaderboard</title>
-    <link rel="stylesheet" href="../css/pages/esports.css" />
+    <link rel="stylesheet" href="../css/main.css" />
   </head>
-  <body>
+  <body class="esports-body">
+    <header class="header">
+      <section class="nav-logo">
+        <p class="nav-logo-text">GAME<span>ZONE</span></p>
+      </section>
+      <section class="nav-links">
+        <ul class="nav-links-ul">
+          <li><a href="../index.html"> Home </a></li>
+          <li><a href="arcade.html">Arcade </a></li>
+          <li><a href="lider.html">Classics </a></li>
+          <li>Esports</li>
+          <li>Community</li>
+          <li>Store</li>
+        </ul>
+      </section>
+      <section class="nav-user">
+        <article class="nav-user-logo">
+          <a href="profile.html">
+            <img src="../assets/images/home page images/nav-user-logo.png" alt="User avatar" />
+          </a>
+        </article>
+        <p class="nav-username">Alex_R.</p>
+        <article class="nav-user-button">
+          <button class="nav-user-button-btn">Log in</button>
+        </article>
+      </section>
+    </header>
     <main class="dashboard-container">
       <section class="stats">
         <p class="title">GLOBAL STATS</p>
 
         <div class="stat-card-item">
-          <img src="../assets/images/home page images/users.png" width="30px" />
+          <img src="../assets/images/home page images/users.png" width="30" alt="Total players" />
           <div class="stat-info">
             <p>TOTAL PLAYERS</p>
             <h4>4.8M+</h4>
@@ -20,7 +47,7 @@
         </div>
 
         <div class="stat-card-item">
-          <img src="../assets/images/home page images/eye.png" width="30px" />
+          <img src="../assets/images/home page images/eye.png" width="30" alt="Online now" />
           <div class="stat-info">
             <p>ONLINE NOW</p>
             <h4>215K+</h4>
@@ -28,7 +55,7 @@
         </div>
 
         <div class="stat-card-item">
-          <img src="../assets/images/home page images/Frame.png" width="30px" />
+          <img src="../assets/images/home page images/Frame.png" width="30" alt="Total games" />
           <div class="stat-info">
             <p>TOTAL GAMES</p>
             <h4>1.9B+</h4>
@@ -54,156 +81,144 @@
           <button class="butt">filters:All</button>
         </div>
         <div class="table-container">
-         <div class="table-container">
-    <div class="table-header">
-        <p>RANK</p>
-        <p>PLAYER</p>
-        <p>SCORE</p>
-        <p>GAMES</p>
-        <p>WIN RATE</p>
-    </div>
-    <div class="leaderboard">
- 
+          <div class="table-header">
+            <p>RANK</p>
+            <p>PLAYER</p>
+            <p>SCORE</p>
+            <p>GAMES</p>
+            <p>WIN RATE</p>
+          </div>
+          <div class="top">
+            <div class="top1 lider">
+              <p class="p">
+                <span class="rank">#1 👑</span>
+                <span class="name">CyberValkyrie</span>
+                <span class="level">78</span>
+              </p>
+              <p class="p1">
+                <span>1,452,300</span>
+                <span>3,245</span>
+                <span class="percent">79.4%</span>
+              </p>
+            </div>
 
-<div class="top">
-  <div class="top1 lider">
-    <p class="p">
-      <span class="rank">#1 👑</span>
-      <span class="name">CyberValkyrie</span>
-      <span class="level">78</span>
-    </p>
-    <p class="p1">
-      <span>1,452,300</span>
-      <span>3,245</span>
-      <span class="percent">79.4%</span>
-    </p>
-  </div>
+            <div class="top2 lider">
+              <p class="p">
+                <span class="rank">#2 🥈</span>
+                <span class="name">ShadowHunter</span>
+                <span class="level">72</span>
+              </p>
+              <p class="p1">
+                <span>1,398,800</span>
+                <span>2,891</span>
+                <span class="percent">76.8%</span>
+              </p>
+            </div>
 
+            <div class="top3 lider">
+              <p class="p">
+                <span class="rank">#3 🥉</span>
+                <span class="name">NeonPhoenix</span>
+                <span class="level">69</span>
+              </p>
+              <p class="p1">
+                <span>1,354,100</span>
+                <span>2,714</span>
+                <span class="percent">74.5%</span>
+              </p>
+            </div>
 
-  <div class="top2 lider">
-    <p class="p">
-      <span class="rank">#2 🥈</span>
-      <span class="name">ShadowHunter</span>
-      <span class="level">72</span>
-    </p>
-    <p class="p1">
-      <span>1,398,800</span>
-      <span>2,891</span>
-      <span class="percent">76.8%</span>
-    </p>
-  </div>
+            <div class="top4 lider">
+              <p class="p">
+                <span class="rank">#4</span>
+                <span class="name">AlphaWolf</span>
+                <span class="level">56</span>
+              </p>
+              <p class="p1">
+                <span>1,245,100</span>
+                <span>3,245</span>
+                <span class="percent">79.4%</span>
+              </p>
+            </div>
+            <div class="top5 lider">
+              <p class="p">
+                <span class="rank">#5</span>
+                <span class="name">QuantumGlitch</span>
+                <span class="level">51</span>
+              </p>
+              <p class="p1">
+                <span>1,212,000</span>
+                <span>2,891</span>
+                <span class="percent">76.8%</span>
+              </p>
+            </div>
 
+            <div class="top6 lider">
+              <p class="p">
+                <span class="rank">#6</span>
+                <span class="name">VoidWalker</span>
+                <span class="level">48</span>
+              </p>
+              <p class="p1">
+                <span>1,188,300</span>
+                <span>2,714</span>
+                <span class="percent">74.5%</span>
+              </p>
+            </div>
 
-  <div class="top3 lider">
-    <p class="p">
-      <span class="rank">#3 🥉</span>
-      <span class="name">NeonPhoenix</span>
-      <span class="level">69</span>
-    </p>
-    <p class="p1">
-      <span>1,354,100</span>
-      <span>2,714</span>
-      <span class="percent">74.5%</span>
-    </p>
-  </div>
+            <div class="top7 lider">
+              <p class="p">
+                <span class="rank">#7</span>
+                <span class="name">StarLord</span>
+                <span class="level">45</span>
+              </p>
+              <p class="p1">
+                <span>1,152,000</span>
+                <span>2,245</span>
+                <span class="percent">74.5%</span>
+              </p>
+            </div>
 
+            <div class="top8 lider">
+              <p class="p">
+                <span class="rank">#8</span>
+                <span class="name">ChronoKing</span>
+                <span class="level">42</span>
+              </p>
+              <p class="p1">
+                <span>1,112,000</span>
+                <span>1,125</span>
+                <span class="percent">79.4%</span>
+              </p>
+            </div>
 
-  <div class="top4 lider">
-    <p class="p">
-      <span class="rank">#4</span>
-      <span class="name">AlphaWolf</span>
-      <span class="level">56</span>
-    </p>
-    <p class="p1">
-      <span>1,245,100</span>
-      <span>3,245</span>
-      <span class="percent">79.4%</span>
-    </p>
-  </div>
-  <div class="top5 lider">
-    <p class="p">
-      <span class="rank">#5</span>
-      <span class="name">QuantumGlitch</span>
-      <span class="level">51</span>
-    </p>
-    <p class="p1">
-      <span>1,212,000</span>
-      <span>2,891</span>
-      <span class="percent">76.8%</span>
-    </p>
-  </div>
+            <div class="top9 lider">
+              <p class="p">
+                <span class="rank">#9</span>
+                <span class="name">RogueSpecter</span>
+                <span class="level">38</span>
+              </p>
+              <p class="p1">
+                <span>1,098,800</span>
+                <span>853</span>
+                <span class="percent">76.8%</span>
+              </p>
+            </div>
 
-
-  <div class="top6 lider">
-    <p class="p">
-      <span class="rank">#6</span>
-      <span class="name">VoidWalker</span>
-      <span class="level">48</span>
-    </p>
-    <p class="p1">
-      <span>1,188,300</span>
-      <span>2,714</span>
-      <span class="percent">74.5%</span>
-    </p>
-  </div>
-
-
-  <div class="top7 lider">
-    <p class="p">
-      <span class="rank">#7</span>
-      <span class="name">StarLord</span>
-      <span class="level">45</span>
-    </p>
-    <p class="p1">
-      <span>1,152,000</span>
-      <span>2,245</span>
-      <span class="percent">74.5%</span>
-    </p>
-  </div>
-
-
-  <div class="top8 lider">
-    <p class="p">
-      <span class="rank">#8</span>
-      <span class="name">ChronoKing</span>
-      <span class="level">42</span>
-    </p>
-    <p class="p1">
-      <span>1,112,000</span>
-      <span>1,125</span>
-      <span class="percent">79.4%</span>
-    </p>
-  </div>
-
-
-  <div class="top9 lider">
-    <p class="p">
-      <span class="rank">#9</span>
-      <span class="name">RogueSpecter</span>
-      <span class="level">38</span>
-    </p>
-    <p class="p1">
-      <span>1,098,800</span>
-      <span>853</span>
-      <span class="percent">76.8%</span>
-    </p>
-  </div>
-
-
-  <div class="top10 lider">
-    <p class="p">
-      <span class="rank">#10</span>
-      <span class="name">FrostByte</span>
-      <span class="level">35</span>
-    </p>
-    <p class="p1">
-      <span>1,085,100</span>
-      <span>336</span>
-      <span class="percent">74.5%</span>
-    </p>
-  </div>
-</div>
-</div>
+            <div class="top10 lider">
+              <p class="p">
+                <span class="rank">#10</span>
+                <span class="name">FrostByte</span>
+                <span class="level">35</span>
+              </p>
+              <p class="p1">
+                <span>1,085,100</span>
+                <span>336</span>
+                <span class="percent">74.5%</span>
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>

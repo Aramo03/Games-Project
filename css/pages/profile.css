@@ -1,26 +1,17 @@
-
-<<<<<<< HEAD
-
-main {
-    width: 100vw;
-    height: 100vh;
-=======
 .profileBody{
     background-color: #0B071A;
 }
 
-main {
-
+.profileBody main {
     width: 100%;
     max-width: 2500px;
     margin: 0 auto;
->>>>>>> ea14c30b19f13404342a3ecaa19c49e55994b18b
 }
 
 .profile {
     width: 90%;
     height: 500px;
-    background-color: blue;
+    background-color: var(--card-background);
     margin: 5%;
     border-radius: 30px;
 }
@@ -34,28 +25,23 @@ main {
 .profileBanner {
     width: 100%;
     height: 50%;
-    background-image: url(/assets/images/profile/images/banner.avif);
+    background-image: url("../../assets/images/profile/images/banner.avif");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px 30px 0px 0px;
-
 }
 
 .profileAvatar {
     width: 200px;
     height: 200px;
-<<<<<<< HEAD
-    background-color: brown;
-=======
-    background-image: url(/assets/images/profile/images/ava.jpg);
-    background-size: contain;
->>>>>>> ea14c30b19f13404342a3ecaa19c49e55994b18b
+    background-image: url("../../assets/images/profile/images/ava.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 50%;
     position: absolute;
     bottom: 200px;
     left: 20px;
-<<<<<<< HEAD
-=======
     border: 4px solid rgb(0, 145, 0);
 }
 
@@ -70,7 +56,6 @@ main {
 .profileName {
     font-size: 40px;
     color: white;
-
 }
 
 .profileLevel {
@@ -168,8 +153,8 @@ main {
     border-radius: 20px;
     max-width: 400px;
     transition: 0.5s ease;
-
 }
+
 .gameCard:hover{
     transform: scale(1.1);
 }
@@ -180,7 +165,6 @@ main {
     max-width: 400px;
     height: 150px;
     border-radius: 20px 20px 0px 0px;
-
 }
 
 .gameCardTitle {
@@ -198,5 +182,4 @@ main {
 .gameCardHours {
     color: rgb(85, 173, 250);
     margin: 10px;
->>>>>>> ea14c30b19f13404342a3ecaa19c49e55994b18b
 }

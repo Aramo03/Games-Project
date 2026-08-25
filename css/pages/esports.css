@@ -1,17 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
+.esports-body {
     width: 100%;
     min-height: 100vh;
     background-color: #080611;
     color: white;
     font-family: Arial, sans-serif;
 }
-
 
 .dashboard-container {
     display: flex;
@@ -143,7 +136,7 @@ body {
 }
 .top{
     display: grid;
-    grid-template-rows: repeat(1/11 35px);
+    grid-template-rows: repeat(10, auto);
     gap: 10px;
     padding: 20px 20px;
 }

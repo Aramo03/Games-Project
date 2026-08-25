@@ -69,6 +69,14 @@
     height: 32px;
 }
 
+.nav-user-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
 .nav-username{
     color: #ffffff;
     font-size: 14px;
