@@ -18,93 +18,510 @@
             width: 1040px;
             height: 80px;
             .arcade-description1 {
+                 font-family: 'Onest', sans-serif;
                 font-size: 48px;
+                font-weight: 700;
                 color: var(--color-white);
             }
             .arcade-description2 {
+                font-family: 'Inter', sans-serif;
                 font-size: 14px;
+                 font-weight: 500;
                 color: var(--color-blue);
             }
         }
         .arcade-cards{
             width: 1040px;
             height: 740px;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            display: flex;
+            flex-direction: column;
             align-items: center;
-            row-gap: 24px;
-            column-gap: 15px;
-            .arcade-card1-contain{
+            gap: 24px;
+            .cards-container1{
+                 width: 1040px;
+                 height: 340px;
                 display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                gap: 16px;
-                padding: 16px;
-                background-color: var(--card-background);
-                .arcade-img{
+                flex-direction: row;
+                gap: 24px;
+                .arcade-card1-contain{
+                    width: 330px;
+                    height: 343px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border: 2px solid var(--color-blue);
+                    border-radius: 20px;
+                    gap: 16px;
+                    padding: 16px;
+                    background-color: var(--card-background);
+                    .arcade-img{
 
-                }
-                .arcade-card1-container{
-                    
-                    .card-container-title{
-                        display: flex;
-                        flex-direction: column;
-                        gap: 8px;   
-                        .type-rate{
+                    }
+                    .arcade-card1-container{
+                        
+                        .card-container-title{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;   
+                            .type-rate{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                .game-type{
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 11px;
+
+                                    color: var(--color-blue);
+                                }
+                                .game-rate {
+                                    font-size: 12px;
+                                    color: var(--color-white);
+                                }
+
+                            }
+                            .description2{
+                                .title {
+                                    font-family: 'Onest', sans-serif;
+                                    font-size: 18px;
+                                    color: var(--color-white);
+                                }
+                                .description {
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 13px;
+                                    color: var(--taxt-color-grey);
+                                }
+                            }
+                            
+                        }
+                        .active-s-button{
+                            width: 100%;
+                            height: 35px;
                             display: flex;
                             flex-direction: row;
                             justify-content: space-between;
-                            .game-type{
-                                font-size: 11px;
-                                color: var(--color-blue);
-                            }
-                            .game-rate {
+                            align-items: center;
+                            
+                            .active{
                                 font-size: 12px;
-                                color: var(--color-white);
-                            }
-
-                        }
-                        .description2{
-                            .title {
-                                font-size: 18px;
-                                color: var(--color-white);
-                            }
-                            .description {
-                                 font-size: 13px;
                                 color: var(--taxt-color-grey);
                             }
-                        }
-                        
-                    }
-                    .active-s-button{
-                        width: 304px;
-                        height: 35px;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        align-items: center;
-                        
-                        .active{
-                            font-size: 12px;
-                            color: var(--taxt-color-grey);
-                        }
-                        .arcade-btn{
-                            width: 80px;
-                            height: 30px;
-                            border: 2px solid var(--color-blue);
-                             background-color: #00F0FF1A; 
-                            transition: all 0.3s linear;
-                            border-radius: 15px;
-                            color: var(--color-white);
-                            &:hover{
-                            scale: 1.10;
+                            .arcade-btn{
+                                width: 80px;
+                                height: 30px;
+                                border: 2px solid var(--color-blue);
+                                background-color: #00F0FF1A; 
+                                transition: all 0.3s linear;
+                                border-radius: 15px;
+                                color: var(--color-white);
+                                &:hover{
+                                scale: 1.10;
+                                }
                             }
-                        }
 
+                        }
+                    }
+                }
+                .arcade-card2-contain{
+                    width: 330px;
+                    height: 343px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border: 2px solid var(--text-color-pinkred);
+                    border-radius: 20px;
+                    gap: 16px;
+                    padding: 16px;
+                    background-color: var(--card-background);
+                    .arcade-img{
+
+                    }
+                    .arcade-card2-container{
+                        
+                        
+                        .card-container-title{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;   
+                            .type-rate{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                .game-type{
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 11px;
+                                    color: var( --text-color-pinkred);
+                                }
+                                .game-rate {
+                                    font-size: 12px;
+                                    color: var(--color-white);
+                                }
+                                
+                            }
+                            .description2{
+                                .title {
+                                    font-family: 'Onest', sans-serif;
+                                    font-size: 18px;
+                                    color: var(--color-white);
+                                }
+                                .description {
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 13px;
+                                    color: var(--taxt-color-grey);
+                                }
+                            }
+                            
+                            
+                        }
+                        .active-s-button{
+                            width: 100%;
+                            height: 35px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            
+                            .active{
+                                font-size: 12px;
+                                color: var(--taxt-color-grey);
+                            }
+                            .arcade-btn{
+                                width: 80px;
+                                height: 30px;
+                                border: 2px solid var(--text-color-pinkred);
+                                background-color: #FF007F1A; 
+                                transition: all 0.3s linear;
+                                border-radius: 15px;
+                                color: var(--color-white);
+                                &:hover{
+                                scale: 1.10;
+                                }
+                            }
+
+                        }
+                    }
+                }
+                .arcade-card3-contain{
+                    width: 330px;
+                    height: 343px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border: 2px solid var(--text-color-purple);
+                    border-radius: 20px;
+                    gap: 16px;
+                    padding: 16px;
+                    background-color: var(--card-background);
+                    .arcade-img{
+
+                    }
+                    .arcade-card3-container{
+                        
+                        
+                        .card-container-title{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;   
+                            .type-rate{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                .game-type{
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 11px;
+                                    color: var( --text-color-purple);
+                                }
+                                .game-rate {
+                                    font-size: 12px;
+                                    color: var(--color-white);
+                                }
+                                
+                            }
+                            .description2{
+                                .title {
+                                    font-family: 'Onest', sans-serif;
+                                    font-size: 18px;
+                                    color: var(--color-white);
+                                }
+                                .description {
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 13px;
+                                    color: var(--taxt-color-grey);
+                                }
+                            }
+                            
+                            
+                        }
+                        .active-s-button{
+                            width: 100%;
+                            height: 35px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            
+                            .active{
+                                font-size: 12px;
+                                color: var(--taxt-color-grey);
+                            }
+                            .arcade-btn{
+                                width: 80px;
+                                height: 30px;
+                                border: 2px solid var(--text-color-purple);
+                                background-color: #FF007F1A; 
+                                transition: all 0.3s linear;
+                                border-radius: 15px;
+                                color: var(--color-white);
+                                &:hover{
+                                scale: 1.10;
+                                }
+                            }
+
+                        }
                     }
                 }
             }
+             .cards-container2{
+                 width: 1040px;
+                 height: 340px;
+                display: flex;
+                flex-direction: row;
+                gap: 24px;
+                .arcade-card4-contain{
+                    width: 330px;
+                    height: 343px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border: 2px solid var(--text-color-yellou);
+                    border-radius: 20px;
+                    gap: 16px;
+                    padding: 16px;
+                    background-color: var(--card-background);
+                    .arcade-img{
 
+                    }
+                    .arcade-card4-container{
+                        
+                        .card-container-title{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;   
+                            .type-rate{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                .game-type{
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 11px;
+                                    color: var(--text-color-yellou);
+                                }
+                                .game-rate {
+                                    font-size: 12px;
+                                    color: var(--color-white);
+                                }
+
+                            }
+                            .description2{
+                                .title {
+                                    font-family: 'Onest', sans-serif;
+                                    font-size: 18px;
+                                    color: var(--color-white);
+                                }
+                                .description {
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 13px;
+                                    color: var(--taxt-color-grey);
+                                }
+                            }
+                            
+                        }
+                        .active-s-button{
+                            width: 100%;
+                            height: 35px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            
+                            .active{
+                                font-size: 12px;
+                                color: var(--taxt-color-grey);
+                            }
+                            .arcade-btn{
+                                width: 80px;
+                                height: 30px;
+                                border: 2px solid var(--text-color-yellou);
+                                background-color: #FFCC001A; 
+                                transition: all 0.3s linear;
+                                border-radius: 15px;
+                                color: var(--color-white);
+                                &:hover{
+                                scale: 1.10;
+                                }
+                            }
+
+                        }
+                    }
+                }
+                .arcade-card5-contain{
+                    width: 330px;
+                    height: 343px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border: 2px solid var(--text-color-pinkred);
+                    border-radius: 20px;
+                    gap: 16px;
+                    padding: 16px;
+                    background-color: var(--card-background);
+                    .arcade-img{
+
+                    }
+                    .arcade-card5-container{
+                        
+                        
+                        .card-container-title{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;   
+                            .type-rate{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                .game-type{
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 11px;
+                                    color: var( --text-color-pinkred);
+                                }
+                                .game-rate {
+                                    font-size: 12px;
+                                    color: var(--color-white);
+                                }
+                                
+                            }
+                            .description2{
+                                .title {
+                                    font-family: 'Onest', sans-serif;
+                                    font-size: 18px;
+                                    color: var(--color-white);
+                                }
+                                .description {
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 13px;
+                                    color: var(--taxt-color-grey);
+                                }
+                            }
+                            
+                            
+                        }
+                        .active-s-button{
+                            width: 100%;
+                            height: 35px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            
+                            .active{
+                                font-size: 12px;
+                                color: var(--taxt-color-grey);
+                            }
+                            .arcade-btn{
+                                width: 80px;
+                                height: 30px;
+                                border: 2px solid var(--text-color-pinkred);
+                                background-color: #FF007F1A; 
+                                transition: all 0.3s linear;
+                                border-radius: 15px;
+                                color: var(--color-white);
+                                &:hover{
+                                scale: 1.10;
+                                }
+                            }
+
+                        }
+                    }
+                }
+                .arcade-card6-contain{
+                    width: 330px;
+                    height: 343px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border: 2px solid var(--text-color-purple);
+                    border-radius: 20px;
+                    gap: 16px;
+                    padding: 16px;
+                    background-color: var(--card-background);
+                    .arcade-img{
+
+                    }
+                    .arcade-card6-container{
+                        
+                        
+                        .card-container-title{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 8px;   
+                            .type-rate{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                .game-type{
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 11px;
+                                    color: var( --text-color-purple);
+                                }
+                                .game-rate {
+                                    font-size: 12px;
+                                    color: var(--color-white);
+                                }
+                                
+                            }
+                            .description2{
+                                .title {
+                                    font-family: 'Onest', sans-serif;
+                                    font-size: 18px;
+                                    color: var(--color-white);
+                                }
+                                .description {
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: 13px;
+                                    color: var(--taxt-color-grey);
+                                }
+                            }
+                            
+                            
+                        }
+                        .active-s-button{
+                            width: 100%;
+                            height: 35px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            
+                            .active{
+                                font-size: 12px;
+                                color: var(--taxt-color-grey);
+                            }
+                            .arcade-btn{
+                                width: 80px;
+                                height: 30px;
+                                border: 2px solid var(--text-color-purple);
+                                background-color: #FF007F1A; 
+                                transition: all 0.3s linear;
+                                border-radius: 15px;
+                                color: var(--color-white);
+                                &:hover{
+                                scale: 1.10;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
 
         }
     }
@@ -112,5 +529,140 @@
     .arcade-section-3-contain2{
          width: 20vw;
         height: 90vh;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding: 24px;
+        .contain2-top{
+            width: 270px;
+            height: 225px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding: 24px;
+            .contain2-title{
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                color: var(--color-white);
+            }
+            .contain2-top-pleyers{
+                width: 100%;
+                height: 192px;
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+
+                .top-pleyer1{
+
+                    width: 100%;
+                    height: 56px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    border-radius: 12px;
+                    border: 1px solid var(--color-blue);
+                    padding: 12px;
+                    
+                    .player-place {
+                        color: var(--color-blue);
+                    }
+                    .player-avatar {
+                        border: 1px solid var(--color-blue);
+                        border-radius: 16px;
+                    }
+                    .player-name {
+                        font-family: 'Inter', sans-serif;
+                        color: var(--color-white);
+                    }
+                    .player-points {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        gap: 2px;
+                         color: var(--color-blue);
+                         font-size: 12px;
+                        .value {
+                             font-family: 'Inter', sans-serif;
+                            font-size: 10px;
+                            color: var(--taxt-color-grey);
+                        }
+                    }
+                }
+                .top-pleyer2,
+                .top-pleyer3{
+                    width: 100%;
+                    height: 56px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    border-radius: 12px;
+                    padding: 12px;
+                    
+
+                    .player-place {
+                        color: var(--color-white);
+                    }
+                    .player-avatar {
+                        border-radius: 16px;
+                    }
+                    .player-name {
+                        font-family: 'Inter', sans-serif;
+                        color: var(--color-white);
+                    }
+                    .player-points {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        gap: 2px;
+                         color: var(--color-white);
+                         font-size: 12px;
+                        .value {
+                             font-family: 'Inter', sans-serif;
+                            font-size: 10px;
+                            color: var(--taxt-color-grey);
+                        }
+                    }
+                }
+            }
+        }
+        .contain2-live{
+            width: 272px;
+            height: 239px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            .contain2-title{
+                 font-family: 'Inter', sans-serif;
+                 font-size: 14px;
+            }
+            .player-live-cont{
+
+                .player-live-container1{
+                    .player {
+                        .player-avatar {
+                        }
+                        .player-name {
+                        }
+                    }
+                    .live-icon {
+                    }
+                    .live-name {
+                    }
+                    .live-watches{
+                        .online-value{
+
+                        }
+                    }   
+                }
+                .player-live-container2{
+
+                }
+            }
+
+        }
     }
 }
