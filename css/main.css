@@ -10,17 +10,10 @@
 @import url("components/input.css");
 @import url("components/card.css");
 
-<<<<<<< HEAD
 @import url("pages/home.css");
 @import url("pages/about.css");
 @import url("pages/arcade.css");
 @import url("pages/contact.css");
-=======
-/* @import url("pages/home.css");
-@import url("pages/about.css");
-@import url("pages/contact.css"); */
-@import url("pages/arcade.css");
->>>>>>> ea14c30b19f13404342a3ecaa19c49e55994b18b
 
 
 @import url("base/media.css");
