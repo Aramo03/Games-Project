@@ -1,8 +1,20 @@
 
+<<<<<<< HEAD
 
 main {
     width: 100vw;
     height: 100vh;
+=======
+.profileBody{
+    background-color: #0B071A;
+}
+
+main {
+
+    width: 100%;
+    max-width: 2500px;
+    margin: 0 auto;
+>>>>>>> ea14c30b19f13404342a3ecaa19c49e55994b18b
 }
 
 .profile {
@@ -22,7 +34,7 @@ main {
 .profileBanner {
     width: 100%;
     height: 50%;
-    background-image: url(/assets/images/profile\ images/banner.png);
+    background-image: url(/assets/images/profile/images/banner.avif);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px 30px 0px 0px;
@@ -32,9 +44,159 @@ main {
 .profileAvatar {
     width: 200px;
     height: 200px;
+<<<<<<< HEAD
     background-color: brown;
+=======
+    background-image: url(/assets/images/profile/images/ava.jpg);
+    background-size: contain;
+>>>>>>> ea14c30b19f13404342a3ecaa19c49e55994b18b
     border-radius: 50%;
     position: absolute;
-    bottom: 150px;
+    bottom: 200px;
     left: 20px;
+<<<<<<< HEAD
+=======
+    border: 4px solid rgb(0, 145, 0);
+}
+
+.profileUser {
+    width: 500px;
+    height: 100px;
+    margin-left: 230px;
+    display: flex;
+    gap: 30px;
+}
+
+.profileName {
+    font-size: 40px;
+    color: white;
+
+}
+
+.profileLevel {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 25px;
+    margin-top: 15px;
+    color: rgb(7, 133, 211);
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.profileStatus {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 25px;
+    margin-top: 15px;
+    color: rgb(5, 255, 5);
+    border-radius: 6px;
+    background-color: rgba(48, 245, 4, 0.262);
+}
+
+.profileActions {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.profileFriendButton {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 191, 255);
+    border: none;
+    color: rgb(2, 34, 45);
+    border-radius: 13px;
+}
+
+.profileMessageButton {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid rgb(11, 154, 237);
+    color: aqua;
+    border-radius: 13px;
+}
+
+.profileStats {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #1f1839;
+    color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.profileStat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 26px;
+}
+
+.recentlyPlayed {
+    width: 90%;
+    height: 500px;
+    margin: 70px auto 0;
+}
+
+.sectionHeader {
+    width: 100%;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.recentlyPlayedGames {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 20px;
+}
+
+.gameCard {
+    background-color: #1F2330;
+    border-radius: 20px;
+    max-width: 400px;
+    transition: 0.5s ease;
+
+}
+.gameCard:hover{
+    transform: scale(1.1);
+}
+
+.gameCargImageIMG {
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.gameCardTitle {
+    color: rgb(218, 218, 218);
+    font-size: 22px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gameCardPlayed {
+    color: rgb(122, 124, 126);
+    margin: 10px;
+}
+
+.gameCardHours {
+    color: rgb(85, 173, 250);
+    margin: 10px;
+>>>>>>> ea14c30b19f13404342a3ecaa19c49e55994b18b
 }
