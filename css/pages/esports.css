@@ -120,7 +120,7 @@ body {
 .table-container {
     border: 1px solid #00f2ff;
     border-radius: 20px;
-    height: 600px;
+    height: 650px;
     
 }
 
@@ -129,7 +129,7 @@ body {
     justify-content: space-around;
     color: #8f8ba8;
     font-size: 12px;
-    font-weight: bold;
+    
 }
 .butt{
     border-radius: 20px;
@@ -141,4 +141,108 @@ body {
    margin-top: -50px;
    border: none;
 }
+.top{
+    display: grid;
+    grid-template-rows: repeat(1/11 35px);
+    gap: 10px;
+    padding: 20px 20px;
+}
+.top1{
+    grid-row: 1/2;
+    background-color: #7a4e008a;
+    border:1px solid #F59E0B;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.top2{
+    grid-row: 2/3;
+    background-color: #30496b69;
+    border:1px solid #94A3B8;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.top3{
+    grid-row:3/4;
+    background-color: #81380060;
+    border: 1px solid #B45309;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.top4{
+    grid-row: 4/5;
+    background-color: #1000457a;
+    border: 1px solid #0d0048;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.top5{
+    grid-row: 5/6;
+    background-color: #1000457a;
+    border: 1px solid #0d0048;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.top6{
+    grid-row: 6/7;
+    background-color: #1000457a;
+    border: 1px solid #0d0048;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.top7{
+    grid-row: 7/8;
+    background-color: #1000457a;
+    border: 1px solid #0d0048;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.top8{
+    grid-row: 8/9;
+    background-color: #1000457a;
+    border: 1px solid #0d0048;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.top9{
+    grid-row: 9/10;
+    background-color: #1000457a;
+    border: 1px solid #0d0048;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.top10{
+    grid-row: 10/11;
+    background-color: #1000457a;
+    border: 1px solid #0d0048;
+    border-radius: 20px;
+    padding: 10px 10px;
+} 
 
+
+.lider {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 15px 15px;
+   
+}
+
+
+.p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.p1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+
+.percent {
+    color: #00d2ff;
+}
+.level{
+    color: #9a9a9aea;
+}
