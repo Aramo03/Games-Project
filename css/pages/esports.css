@@ -1,12 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .esports-body {
     width: 100%;
     min-height: 100vh;
     background-color: #080611;
     color: white;
-    font-family: Arial, sans-serif;
 }
-
 .dashboard-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #080611;
+    color: white;
     display: flex;
     gap: 40px;
     padding: 40px;
@@ -15,18 +22,17 @@
 
 .stats {
     width: 400px;
-    background: #080611;
+    background-color: #080611;
     padding: 20px;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    flex-shrink: 0;
 }
 
 .title {
     font-size: 16px;
-    font-weight: bold;
+   
     color: #ffffff;
 }
 
@@ -110,12 +116,6 @@
     cursor: pointer;
 }
 
-.table-container {
-    border: 1px solid #00f2ff;
-    border-radius: 20px;
-    height: 650px;
-    
-}
 
 .table-header {
     display: flex;
@@ -124,6 +124,26 @@
     font-size: 12px;
     
 }
+.table-container {
+    align-items: center;
+    padding: 10px 20px;
+    align-items: center;
+    padding: 15px 15px;
+    border: 1px solid #00f2ff;
+    border-radius: 20px;
+    height: 700px;
+}
+.table-header{
+    display: grid;
+   grid-template-columns: 80px 6.5fr 1.5fr 1.5fr 1.5fr;
+    align-items: center;
+    padding: 10px 40px;
+    color: #8f8ba8;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    
+}
+
 .butt{
     border-radius: 20px;
     height: 30px;
@@ -131,8 +151,8 @@
     background-color:#FFFFFF14;
     color: whitesmoke;
     margin-left: auto;
-   margin-top: -50px;
-   border: none;
+    margin-top: -50px;
+    border: none;
 }
 .top{
     display: grid;
@@ -216,10 +236,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    padding: 10px 20px;
+    align-items: center;
     padding: 15px 15px;
-   
+    
 }
-
+    
 
 .p {
     display: flex;
