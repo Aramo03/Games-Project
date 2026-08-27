@@ -1,16 +1,16 @@
-.main{
+.main {
     width: 100%;
     height: 90vh;
 }
 
-.hero{
+.hero {
     width: 100%;
     height: 60%;
     display: flex;
-    margin: 10px;
+    justify-content: space-around;
 }
 
-.hero-info{
+.hero-info {
     width: 50%;
     height: 100%;
     display: flex;
@@ -19,31 +19,31 @@
     margin: 80px;
 }
 
-.hero-info-heading{
+.hero-info-heading {
     color: #FFFFFF;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 90px;
 }
 
-.hero-info-heading span{
+.hero-info-heading span {
     color: #FF007F;
 }
 
-.hero-info-paragraph{
+.hero-info-paragraph {
     font-size: 16px;
     color: #8E8A9F;
 }
 
-.hero-info-button{
+.hero-info-button {
     width: 191px;
     height: 49px;
-    border-radius:16px ;
+    border-radius: 16px;
     border: none;
     background-color: #ff00802a;
     color: #ffffff;
 }
 
-.hero-image{
+.hero-image {
     width: 600px;
     height: 400px;
     background-image: url("../../assets/images/home page images/Jostick.png");
@@ -57,30 +57,31 @@
 
 
 
-.pop{
+.pop {
     width: 100%;
     height: 40%;
-    display: flex;
-}
-
-
-.pop-games{
-    width: 70%;
-    height: 100%;
-}
-
-.pop-games-games{
     display: flex;
     justify-content: space-evenly;
 }
 
-.pop-games-heading{
+
+.pop-games {
+    width: 70%;
+    height: 100%;
+}
+
+.pop-games-games {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pop-games-heading {
     color: #ffffff;
     font-size: 18px;
     margin-left: 130px;
 }
 
-.box{
+.box {
     width: 194px;
     height: 214px;
     background-color: #fdfcfd1c;
@@ -94,35 +95,35 @@
     font-size: 13px;
 }
 
-.box-logo{
+.box-logo {
     width: 72px;
     height: 72px;
-    border: 1px solid #FF007F;
+    border: 2px solid #FF007F;
     border-radius: 16px;
 }
 
-.box-button{
+.box-button {
     width: 91px;
     height: 21px;
     border-radius: 16px;
     background-color: transparent;
     border: none;
-    color: #ffffff ;
-    border:1px solid #8E8A9F;
+    color: #ffffff;
+    border: 1px solid #8E8A9F;
 }
 
-.pop-gamers{
+.pop-gamers {
     width: 30%;
     height: 100%;
 
 }
 
-.pop-gamers-heading{
+.pop-gamers-heading {
     font-size: 18px;
     color: #ffffff;
 }
 
-.pop-gamers-board{
+.pop-gamers-board {
     width: 360px;
     height: 232px;
     background-color: #fdfcfd1c;
@@ -133,7 +134,7 @@
     align-items: center;
 }
 
-.first-gamer{
+.first-gamer {
     width: 320px;
     height: 56px;
     background-color: #ffffff07;
@@ -145,7 +146,7 @@
     color: #ffffff;
 }
 
-.leaders-image{
+.leaders-image {
     width: 32px;
     height: 32px;
     background-image: url("../../assets/images/home page images/avatar.png");
@@ -155,15 +156,106 @@
     border-radius: 50%;
 }
 
-.mike-p{
-    
+.mike-p {
+
     width: 32px;
     height: 32px;
     background-image: url("../../assets/images/home page images/mike.png");
 }
 
-.sara{
+.sara {
     width: 32px;
     height: 32px;
     background-image: url("../../assets/images/home page images/sara.png");
+}
+
+.pop-games-games-second-logo {
+    border: 2px solid #00F0FF;
+}
+
+.pop-games-games-thired-logo {
+    border: 2px solid #AE52FF;
+}
+
+.pop-games-games-four-logo {
+    border: 2px solid #FFCC00;
+}
+
+
+.footer {
+    width: 100%;
+    height: 358px;
+}
+
+.footer-top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-top-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-logo{
+    font-size: 24px;
+    color: #00F0FF;
+}
+
+.footer-logo span{
+    color: #FF007F;
+}
+
+.footer-paragraph{
+    font-size: 13px;
+    color: #8E8A9F;
+}
+
+.footer-social{
+    display: flex;
+    gap: 12px;
+}
+
+.footer-box{
+    width:36px ;
+    height:36px ;
+    background-color: #8e8a9f33;
+    border-radius: 16%;
+    border: 1px solid #8E8A9F;
+}
+
+.footer-top-right{
+    display: flex;
+    gap: 64px;
+    font-size: 13px;
+    color: #8E8A9F;
+    align-items: center;
+}
+
+.footer-ul{
+    
+    list-style: none;
+}
+
+.main-li{
+    font-size: 16px;
+    color: #FF007F;
+}
+
+
+.main-li-blue{
+    color: #00F0FF;
+}
+.footer-bottom {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #8E8A9F;
 }
