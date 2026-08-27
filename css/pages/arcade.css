@@ -527,12 +527,13 @@
     }
 
     .arcade-section-3-contain2{
-         width: 20vw;
-        height: 90vh;
+         width: 16.6667vw;
+        height: 84,0741;
         display: flex;
         flex-direction: column;
         gap: 32px;
         padding: 24px;
+        
         .contain2-top{
             width: 270px;
             height: 225px;
@@ -638,31 +639,140 @@
             .contain2-title{
                  font-family: 'Inter', sans-serif;
                  font-size: 14px;
+                 color: var(--color-white);
             }
             .player-live-cont{
-
+                width: 272px;
+                height: 97px;
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                background-color: #8E8A9F1A;
+                border: 1px solid var(--taxt-color-grey);
+                border-radius: 12px;
                 .player-live-container1{
-                    .player {
-                        .player-avatar {
+                     width: 272px;
+                     height: 97px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding: 12px;
+                    .title-container{
+                        width: 248px;
+                        height: 24px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        .player {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap: 8px;
+                            
+                            .player-avatar {
+                            }
+                            .player-name {
+                                color: var(--color-white);
+                                font-size: 12px;
+                                font-family: 'Inter', sans-serif;
+                            }
                         }
-                        .player-name {
+                        .live-icon {
+                            width: 33px;
+                            height: 15px;
+                            background-color: #FF007F1A;
+                            color: var(--text-color-pinkred);
+                            border-radius: 4px;
+                            border: none;
+                            font-size: 9px;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 700;
                         }
-                    }
-                    .live-icon {
-                    }
+                    } 
+
                     .live-name {
+                        font-size: 13px;
+                        color: var(--color-white);
                     }
                     .live-watches{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 6px;
                         .online-value{
+                            font-size: 11px;
+                            color: var(--taxt-color-grey);
+                            font-family: 'Inter', sans-serif;
 
                         }
                     }   
                 }
                 .player-live-container2{
+                     width: 272px;
+                        height: 97px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 12px;
+                        background-color: #8E8A9F1A;
+                        border: 1px solid var(--taxt-color-grey);
+                        border-radius: 12px;
+                        padding: 12px;
+               
+                    .title-container{
+                        width: 248px;
+                        height: 24px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        .player {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            gap: 8px;
+                            
+                            .player-avatar {
+                            }
+                            .player-name {
+                                color: var(--color-white);
+                                font-size: 12px;
+                                font-family: 'Inter', sans-serif;
+                            }
+                        }
+                        .live-icon {
+                            width: 33px;
+                            height: 15px;
+                            background-color: #FF007F1A;
+                            color: var(--text-color-pinkred);
+                            border-radius: 4px;
+                            border: none;
+                            font-size: 9px;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 700;
+                        }
+                    } 
 
+                    .live-name {
+                        font-size: 13px;
+                        color: var(--color-white);
+                    }
+                    .live-watches{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 6px;
+                        .online-value{
+                            font-size: 11px;
+                            color: var(--taxt-color-grey);
+                            font-family: 'Inter', sans-serif;
+
+                        }
+                    }   
                 }
             }
-
         }
+
     }
+    
 }
