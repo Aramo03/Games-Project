@@ -195,11 +195,22 @@
 }
 
 .libraryCard {
-    width: 40%;
-    height: 100px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+
 }
 
 .libraryCardImageIMG {
+    object-fit: contain;
     width: 100%;
-    height: 100px;
+    height: 100%;
+}
+
+.libraryCardInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
 }
