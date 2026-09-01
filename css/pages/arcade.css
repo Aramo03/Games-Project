@@ -1,14 +1,17 @@
+
+
 .arcade-body{
     background-color: var(--bg-color);
 }
 .arcade-section-3{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     .arcade-section-3-contain1{
-        width: 80vw;
-        height: 90vh;
+        width: 83.3333vw;
+        height: 100vh;
         padding-inline: 40px;
         padding-bottom: 40px;
         display: flex;
@@ -32,18 +35,25 @@
         }
         .arcade-cards{
             width: 1040px;
-            height: 740px;
+            min-height: 740px;
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 24px;
             .cards-container1{
                  width: 1040px;
-                 height: 340px;
+                 min-height: 340px;
                 display: flex;
                 flex-direction: row;
+                flex-wrap: wrap;
                 gap: 24px;
-                .arcade-card1-contain{
+                .arcade-card1-contain,
+                .arcade-card2-contain,
+                .arcade-card3-contain,
+                .arcade-card4-contain,
+                .arcade-card5-contain,
+                .arcade-card6-contain{
+                    flex: 0 0 330px;
                     width: 330px;
                     height: 343px;
                     display: flex;
@@ -282,9 +292,10 @@
             }
              .cards-container2{
                  width: 1040px;
-                 height: 340px;
+                 min-height: 340px;
                 display: flex;
                 flex-direction: row;
+                flex-wrap: wrap;
                 gap: 24px;
                 .arcade-card4-contain{
                     width: 330px;
@@ -776,3 +787,30 @@
     }
     
 }
+@media (max-width: 1348px) {
+ .arcade-cards,
+  .cards-container1,
+  .cards-container2 {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .cards-container1,
+  .cards-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .arcade-card1-contain,
+  .arcade-card2-contain,
+  .arcade-card3-contain,
+  .arcade-card4-contain,
+  .arcade-card5-contain,
+  .arcade-card6-contain {
+    flex: 1 1 260px;
+    max-width: 330px;
+    width: 100%;
+    min-width: 0;
+  }
+} 
